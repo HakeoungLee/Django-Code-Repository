@@ -1,0 +1,12 @@
+{% extends 'first/base.html' %}
+{% load static %}
+{% block content %}
+    <h3> Recommmended lottery numbers: </h3>
+    <div style="text-align:left;">
+        <ul>
+            {% for num in numbers %} <!-- 파이썬 필터를 호출하거나 for문 등을 사용할 때는 %를 사용한다 -->
+            <li>{{num}}</li> <!-- 특정 변수를 출력하기만을 원할 때는 % 말고 중괄호를 두번 써준다. -->
+            {% endfor %} <!-- Django에서는 꼭 end로 닫아주어야 한다. -->
+        </ul>
+    </div>
+{% endblock %}
