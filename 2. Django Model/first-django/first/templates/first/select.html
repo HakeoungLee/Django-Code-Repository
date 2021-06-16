@@ -1,0 +1,8 @@
+{% extends 'first/base.html' %}
+{% block content %}
+<p> Input a number </p>
+<form action="{% url 'result' %}" method="get">
+    <input type="number" name="number"/>
+    <button type="submit">Result</button>
+</form>
+{% endblock %}
