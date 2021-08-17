@@ -1,4 +1,4 @@
-# Django-Study
+# Django Code Repository
 
 1. [Lotto Number Generator](https://github.com/HakeoungLee/Django-Study/tree/default/1.%20Lotto%20Number%20Generator)
 2. [Django Model](https://github.com/HakeoungLee/Django-Study/tree/main/2.%20Django%20Model/first-django)
